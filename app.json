@@ -2,6 +2,15 @@
   "expo": {
     "name": "testTask",
     "slug": "testTask",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          
+          "locationWhenInUsePermission": "Allow $(PRODUCT_NAME) to access your location"
+        }
+      ]
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -26,7 +35,7 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/splash.png"
     }
   }
 }
